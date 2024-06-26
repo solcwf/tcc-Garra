@@ -612,6 +612,23 @@ body {
   transform: translateY(-10px);
 }
 
+ /* ScrollLateral */
+ 
+ ::-webkit-scrollbar {
+  height: 0;
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--portland-orange);
+  border-radius: 5rem;
+}
+
+
 /* DAVI E FERNANDO ESSA PARTE É A RESPONSIVIDADE. NÃO ALTERAR NADA DE CUSTOMIZAÇÃO DESSA PARTE, POR FAVOR. SE NECESSARIO, ME CONSULTAR QUE EU EXPLICO TUDO*/
 
 @media (min-width: 575px) {
